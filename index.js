@@ -28,8 +28,8 @@ let newMoneyInWallet2 = (moneyInWallet2 - itemPrice2);
 let numFriendsEachYear1 = (numberOfFriends1 / age1);
 let numFriendsEachYear2 = (numberOfFriends2 / age2);
 
-let fullName1 = (firstName1 + " " + middleInitial1 + ". " + lastName2)
-let fullName2 = (firstName2 + " " + middleInitial2 + ". " + lastName2)
+let fullName1 = (firstName1 + " " + middleInitial1 + ". " + lastName1);
+let fullName2 = (firstName2 + " " + middleInitial2 + ". " + lastName2);
 
 /* Send output to console */
 console.log('New amount of money in wallet1 after buying item1 is: $' + newMoneyInWallet1 );
